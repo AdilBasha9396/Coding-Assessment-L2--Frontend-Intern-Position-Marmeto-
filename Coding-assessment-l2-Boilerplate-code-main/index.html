@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1 id="h1">SELECT YOUR CHOICE</h1>
+    <div class="container">
+        <div class="tabs">
+            <button class="tab-link active" onclick="openTab(event, 'men')">Men<img src="man.png" alt="Men Logo" class="tab-logo men-logo"></button>
+            <button class="tab-link" onclick="openTab(event, 'women')">Women<img src="woman.png" alt="Woman Logo" class="tab-logo women-logo"></button>
+            <button class="tab-link" onclick="openTab(event, 'kids')">Kids<img src="kid.png" alt="Kid Logo" class="tab-logo kids-logo"></button>
+        </div>
+        <div id="men" class="tab-content">
+            <!-- Men products will be dynamically inserted here -->
+        </div>
+        <div id="women" class="tab-content" style="display:none">
+            <!-- Women products will be dynamically inserted here -->
+        </div>
+        <div id="kids" class="tab-content" style="display:none">
+            <!-- Kids products will be dynamically inserted here -->
+        </div>
+    </div>
+</body>
+</html>

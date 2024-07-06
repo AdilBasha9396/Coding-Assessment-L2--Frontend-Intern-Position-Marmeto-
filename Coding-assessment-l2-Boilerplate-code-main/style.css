@@ -1,0 +1,152 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+ .tab-logo{
+  height: 20px;
+  margin-right: 0px;
+  margin:10px;
+
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin:10px;
+  background-color: #888;
+  width: auto;
+  
+ 
+}
+
+.tab-link {
+  padding: 10px 70px; /* Adjust as needed */
+  width: 40%; /* Each tab takes one-third of the container width */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+  cursor: pointer;
+  border: none;
+  background-color: #f1f1f1;
+  
+  transition: background-color 0.3s;
+  padding-top: 10px;
+ 
+  
+}
+
+.tab-link:hover,
+.tab-link.active {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.tab-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width:auto;
+  height: auto;
+  padding:20px;
+  padding-top: 20px;
+  margin-bottom: 20%;
+ 
+ 
+  
+}
+
+ h1 {
+  width: 100%;
+  text-align: center;
+}
+
+
+.product-card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  width: 200px; /* Adjusted to 200px */
+  height: auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s;
+  position: relative;
+  border-radius: 10px;
+}
+
+
+.product-card:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.product-image {
+  width: 100%; /* Ensures images take up full width of their container */
+  height: 300px; /* Allows the height to adjust proportionally */
+  max-width: 200px; /* Limiting maximum width to 200px */
+  max-height: 300px; /* Limiting maximum height to 300px */
+  object-fit: cover;
+   /* Ensures images maintain aspect ratio and cover the container */
+}
+
+.product-badge {
+  background-color: red;
+  color: white;
+  padding: 2px 5px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 10px;
+}
+
+.product-info {
+  margin-top: 10px;
+}
+
+.product-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.product-vendor {
+  color: #888;
+  font-size: 14px;
+}
+
+.product-price,
+.product-compare-price {
+  font-size: 14px;
+}
+
+.product-compare-price {
+  text-decoration: line-through;
+  margin-left: 5px;
+  color: #888;
+}
+
+.product-discount {
+  color: red;
+  font-size: 14px;
+}
+
+.add-to-cart {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #333;
+}
+
+@media (max-width: 767px) {
+  .container {
+      width: 100%;
+  }
+}
