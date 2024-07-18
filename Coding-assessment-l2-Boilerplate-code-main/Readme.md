@@ -1,5 +1,7 @@
 # Coding Assessment L-2 Code Submission Process with Boilerplate
 
+Live demo link: https://sunny-taffy-b7728d.netlify.app/
+
 Welcome to the coding assessment l2. We are excited to see your skills in action. Please follow the instructions below to submit your solution.
 
 ## Getting Started
